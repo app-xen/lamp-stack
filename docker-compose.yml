@@ -26,10 +26,10 @@ services:
       - ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
       - ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Im7wuquo
+      MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: db
       MYSQL_USER: admin
-      MYSQL_PASSWORD: uuc6uPha
+      MYSQL_PASSWORD:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: 'lamp-phpmyadmin'
