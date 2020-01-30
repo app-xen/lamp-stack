@@ -1,4 +1,4 @@
-## AppXen LAMP Stack
+## APPXEN LAMP STACK
 
 AppXen Open Source LEMP Stack provides a complete, containerized, fully-integrated and ready to run PHP, MySQL and NGINX development environment. In addition, it bundles phpMyAdmin, SQLite, ImageMagick, FastCGI, Memcache, GD, CURL, PEAR, PECL and other components including Mail Catcher for debugging mail and smtp enabled applications.
 
@@ -10,7 +10,7 @@ https://appxen.com/app/lamp-stack
 * phpMyAdmin
 * Redis
 
-# Quickstart
+# QUICKSTART
 
 Clone this repository on your local computer and checkout the appropriate branch e.g. 7.4.x. 
 Run the `docker-compose up -d`.
